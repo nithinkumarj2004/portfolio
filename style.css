@@ -469,7 +469,8 @@ article .icon {
     section {
       margin: 0 5%;
     }
-    .section__pic-container {
+    .section__pic-container,
+     {
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
@@ -478,7 +479,11 @@ article .icon {
       margin-top: 0;
     }
   }
-  
+  .section__pic-container1 img{
+    width: 190px;
+    height: 200px;
+    margin-left: 75px;
+  }
   @media screen and (max-width: 600px) {
     #contact,
     footer {
